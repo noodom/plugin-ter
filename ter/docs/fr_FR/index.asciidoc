@@ -1,0 +1,20 @@
+:icons:
+== TER
+
+=== Description
+Plugin permettant de récupérer les horaires du prochain TER sur le parcours configuré.
+
+'''
+=== Configuration
+include::configuration.asciidoc[]
+
+'''
+=== FAQ
+include::faq.asciidoc[]
+
+'''
+=== Crédits
+****
+
+Ce plugin est basé sur un script développé par *eedomusbox@gmail.com* qui a été modifié par *minicupi* et adapté à Jeedom par *zeddiculus*.
+****

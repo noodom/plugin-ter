@@ -1,0 +1,15 @@
+{
+  "id" : "ter",
+  "name": "Horaires TER",
+  "licence": "GPL",
+  "require": "3.0",
+  "version": "1.0",
+  "category": "organization",
+  "hasDependency": false,
+  "hasOwnDaemon": false,
+  "maxDependancyInstallTime": 0,
+  "documentation": "https://www.perdu.com",
+  "changelog": "https://www.perdu.com",
+  "description": "Plugin pour avoir la durée de trajets entre deux gares",
+  "author": "Alain Chiorboli"
+}

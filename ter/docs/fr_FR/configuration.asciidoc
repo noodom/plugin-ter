@@ -1,0 +1,11 @@
+Ce plugin utilise l'API Open Data de la SNCF. Vous devez donc disposer d'un clé pour pouvoir l'utiliser.
+
+. Cette clé s'obtient en vous inscrivant gratuitement sur le site : https://data.sncf.com/api
+
+. Une fois inscrit, récupérez l'ID de vos gares de départ et d'arrivée. Pour ce faire utilisez l'URL suivant en spécifiant votre ville : https://api.sncf.com/v1/coverage/sncf/places?q=VOTRE_VILLE_ICI +
+ Un flux json vous sera alors retourné. Il suffit de récupérer le champ ID dans ce résultat. Il doit être sous la forme *stop_area:OCE:SA:87611897*.
+
+. Il ne vous reste plus qu'a compléter les informations de configuration avec :
+
+.. le temps (exprimé en minutes) qui vous sépare de la gare. Ceci permet de calculer l'heure de départ optimale pour partir pour la gare.
+.. la commande permettant de vous notifier des informations de votre trajet.
